@@ -5,6 +5,7 @@ AllCops:
   Exclude:
     - 'vendor/**/*'
     - '.git/**/*'
+    - 'db/schema.rb'
   DefaultFormatter: progress
   DisabledByDefault: true
   CacheRootDirectory: tmp/rubocop
